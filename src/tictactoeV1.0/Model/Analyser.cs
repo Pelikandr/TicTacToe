@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-    interface Analyzer
+    class Analyser
     {
-        Value winner(int[,] gameField);
+        public Value winner(int[,] gameField)
+        {
+            return Value.none;
+        }
     }
 

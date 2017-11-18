@@ -1,3 +1,3 @@
 ﻿
 
-enum Value { none, x, y };
+public enum Value { none, x, y };

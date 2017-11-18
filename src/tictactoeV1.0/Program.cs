@@ -12,7 +12,14 @@ namespace tictactoe
        
         static void Main(string[] args)
         {
-        
+            View view = new View();
+            Model model = new Model();
+            Analyser analyser = new Analyser();
+            Presenter presenter = new Presenter();
+            presenter.view = view;
+            presenter.model = model;
+            presenter.analyser = analyser;
+            presenter.startGame();
         }
     }
 }

@@ -5,11 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    interface Model
+    class Model
     {
-        bool isFree(Point position);
-        void set(Value value, Point position);
-        int[,] gamefield();
+        public bool isFree(Point position)
+        {
+            return false;
+        }
+
+        public void set(Value value, Point position)
+        {
+
+        }
+
+        public int[,] gamefield()
+        {
+            return new int[,]{};
+        }
     }
 
 

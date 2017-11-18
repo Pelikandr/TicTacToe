@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-interface ViewDelegate
+public interface ViewDelegate
 {
     void set(Value value, Point  point);
 }
