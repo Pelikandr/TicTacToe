@@ -1,0 +1,12 @@
+C:\Users\denis\OneDrive\Документы\Visual Studio 2012\Projects\tictactoeV1.0\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe.config
+C:\Users\denis\OneDrive\Документы\Visual Studio 2012\Projects\tictactoeV1.0\tictactoeV1.0\obj\Debug\tictactoeV1.0.csprojResolveAssemblyReference.cache
+C:\Users\denis\OneDrive\Документы\Visual Studio 2012\Projects\tictactoeV1.0\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe
+C:\Users\denis\OneDrive\Документы\Visual Studio 2012\Projects\tictactoeV1.0\tictactoeV1.0\bin\Debug\tictactoeV1.0.pdb
+C:\Users\denis\OneDrive\Документы\Visual Studio 2012\Projects\tictactoeV1.0\tictactoeV1.0\obj\Debug\tictactoeV1.0.exe
+C:\Users\denis\OneDrive\Документы\Visual Studio 2012\Projects\tictactoeV1.0\tictactoeV1.0\obj\Debug\tictactoeV1.0.pdb
+C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe.config
+C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.exe
+C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.pdb
+C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.csprojResolveAssemblyReference.cache
+C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe
+C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.pdb
