@@ -6,13 +6,13 @@ using System.Threading.Tasks;
         
 class View
 {
-    ViewDelegate viewDelegate { get; set; }
+    public ViewDelegate viewDelegate { get; set; }
     
-    public void print(int[,] array)
+    public void print(int[,] array, Value currentValue)
     {
     }
     
-    public void gameOver(Point point)
+    public void gameOver(Value value)
     {
     }
 }

@@ -19,7 +19,8 @@ namespace tictactoe
             presenter.view = view;
             presenter.model = model;
             presenter.analyser = analyser;
-            presenter.startGame();
+            view.viewDelegate = presenter;
+            presenter.gameTurn(Value.x);
         }
     }
 }

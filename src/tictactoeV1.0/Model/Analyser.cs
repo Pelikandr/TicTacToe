@@ -10,5 +10,9 @@ using System.Threading.Tasks;
         {
             return Value.none;
         }
+        public bool isGamefieldFull(int[,] gameField)
+        {
+            return false;
+        }
     }
 
