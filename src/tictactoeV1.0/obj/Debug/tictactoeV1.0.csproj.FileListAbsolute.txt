@@ -10,3 +10,12 @@ C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\ob
 C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.csprojResolveAssemblyReference.cache
 C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe
 C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.pdb
+<<<<<<< HEAD
+C:\Users\Admin\Documents\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe.config
+C:\Users\Admin\Documents\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.exe
+C:\Users\Admin\Documents\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.pdb
+=======
+E:\git\XO\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe.config
+E:\git\XO\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.exe
+E:\git\XO\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.pdb
+>>>>>>> bf6283f696e6061ce3c495763de60cdf137ebc71
