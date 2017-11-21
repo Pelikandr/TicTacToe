@@ -9,8 +9,6 @@ using System.Threading.Tasks;
     {
         private Value[,] gamefieldArray;  // этот массив будет являтся предтсавлением игрового поля
 
-<<<<<<< HEAD
-=======
         public Model()
         
         {
@@ -24,7 +22,6 @@ using System.Threading.Tasks;
             }
             
         }
->>>>>>> View
         public bool isFree(Point position) //проверка ячейки на пустоту(Value.none)
        {
         
@@ -35,19 +32,6 @@ using System.Threading.Tasks;
 
         public void set(Value value, Point position) //установка нового значения на заданную позицию
         {
-<<<<<<< HEAD
-        gamefieldArray[position.x, position.y] = value;
-        }
-
-        public Value[,] gamefield(Value[,] gamefield) //вернуть текущее состояние игрового поля
-        {
-        for(int i=0; i<3; i++)
-            for(int j=0;j<3;j++)
-            {
-                gamefield[i, j] = gamefieldArray[i, j];
-            }
-            return gamefield;
-=======
             Console.WriteLine("Y S P E H \n");
             position.x = Console.Read();
             position.y = Console.Read();
@@ -58,7 +42,6 @@ using System.Threading.Tasks;
         {
         
             return gamefieldArray;
->>>>>>> View
         }
     }
 
