@@ -7,24 +7,41 @@ using System.Threading.Tasks;
 
     class Model
     {
-        // этот массив будет являтся предтсавлением игрового поля
-        private Value[,] gamefieldArray;
+        private Value[,] gamefieldArray;  // этот массив будет являтся предтсавлением игрового поля
 
-        public bool isFree(Point position)
+        public Model()
+        
         {
-            //проверка ячейки на пустоту(Value.none)
-            return false;
+            gamefieldArray = new Value[3,3];
+            for (int i=0; i<3; i++) 
+            {
+                for (int j=0; j<3; j++)
+                {
+                    gamefieldArray[i, j] = Value.none;
+                }
+            }
+            
+        }
+        public bool isFree(Point position) //проверка ячейки на пустоту(Value.none)
+       {
+        
+        if (gamefieldArray[position.x, position.y] == Value.none)
+            return true;
+            else return false;
         }
 
-        public void set(Value value, Point position)
+        public void set(Value value, Point position) //установка нового значения на заданную позицию
         {
-            //установка нового значения на заданную позицию
+            Console.WriteLine("Y S P E H \n");
+            position.x = Console.Read();
+            position.y = Console.Read();
+            gamefieldArray[position.x, position.y] = value;
         }
 
-        public Value[,] gamefield()
+        public Value[,] gamefield() //вернуть текущее состояние игрового поля
         {
-            //вернуть текущее состояние игрового поля
-            return new Value[,]{};
+        
+            return gamefieldArray;
         }
     }
 

@@ -12,6 +12,7 @@ namespace tictactoe
        
         static void Main(string[] args)
         {
+            
             View view = new View();
             Model model = new Model();
             Analyser analyser = new Analyser();
@@ -21,6 +22,8 @@ namespace tictactoe
             presenter.analyser = analyser;
             view.viewDelegate = presenter;
             presenter.gameTurn(Value.x);
+            Console.Read();
+
         }
     }
 }

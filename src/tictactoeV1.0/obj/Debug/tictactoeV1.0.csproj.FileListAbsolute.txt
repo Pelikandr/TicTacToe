@@ -10,3 +10,15 @@ C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\ob
 C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.csprojResolveAssemblyReference.cache
 C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe
 C:\Users\denis\OneDrive\Документы\GitHub\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.pdb
+C:\Users\denis\Desktop\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe.config
+C:\Users\denis\Desktop\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.exe
+C:\Users\denis\Desktop\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.pdb
+C:\Users\denis\Desktop\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe
+C:\Users\denis\Desktop\TicTacToe\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.pdb
+C:\Users\denis\Desktop\TicTacToe\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.csprojResolveAssemblyReference.cache
+C:\Users\denis\Desktop\arararararara\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe.config
+C:\Users\denis\Desktop\arararararara\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.exe
+C:\Users\denis\Desktop\arararararara\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.pdb
+C:\Users\denis\Desktop\arararararara\src\tictactoeV1.0\obj\Debug\tictactoeV1.0.csprojResolveAssemblyReference.cache
+C:\Users\denis\Desktop\arararararara\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.exe
+C:\Users\denis\Desktop\arararararara\src\tictactoeV1.0\bin\Debug\tictactoeV1.0.pdb
