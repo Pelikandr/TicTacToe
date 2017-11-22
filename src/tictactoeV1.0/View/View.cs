@@ -9,14 +9,16 @@ class View
     public ViewDelegate viewDelegate { get; set; }
     public void print(Value[,] gamefield, Value currentValue)
     {
-        
         Console.WriteLine("{0} turn", currentValue);
         Console.WriteLine("                                 _{0}_|_{1}_|_{2}_", gamefield[0,0], gamefield[0,1], gamefield[0,2]);//вывод игрового поля в консоль и вывод знака (Х\О) текущего игрока 
         Console.WriteLine("                                 _{0}_|_{1}_|_{2}_", gamefield[1,0], gamefield[1,1], gamefield[1,2]);
         Console.WriteLine("                                  {0} | {1} | {2} ", gamefield[2,0], gamefield[2,1], gamefield[2,2]);
-        
-        
-        
+        Point position;
+        Console.WriteLine("enter y");
+        position.y = Console.Read();
+        Console.WriteLine("enter x");
+        position.x = Console.Read();
+        viewDelegate.set(currentValue, position);
     }
     public void gameOver(Value value)
     {   
