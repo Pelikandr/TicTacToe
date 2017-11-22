@@ -32,16 +32,14 @@ using System.Threading.Tasks;
 
         public void set(Value value, Point position) //установка нового значения на заданную позицию
         {
-            Console.WriteLine("Y S P E H \n");
-            position.x = Console.Read();
-            position.y = Console.Read();
             gamefieldArray[position.x, position.y] = value;
         }
 
         public Value[,] gamefield() //вернуть текущее состояние игрового поля
         {
-        
-            return gamefieldArray;
+            
+            Value[,] gamefield = (Value[,])gamefieldArray.Clone(); 
+            return gamefield;
         }
     }
 
