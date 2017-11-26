@@ -10,7 +10,7 @@ namespace tictactoe
     class Program
     {
        
-        static void Main(string[] args)
+        static void Main()
         {
             
             View view = new View();
@@ -22,7 +22,7 @@ namespace tictactoe
             presenter.analyser = analyser;
             view.viewDelegate = presenter;
             presenter.gameTurn(Value.x);
-            Console.Read();
+            
 
         }
     }

@@ -25,14 +25,14 @@ using System.Threading.Tasks;
         public bool isFree(Point position) //проверка ячейки на пустоту(Value.none)
        {
         
-        if (gamefieldArray[position.x, position.y] == Value.none)
+        if (gamefieldArray[position.y, position.x] == Value.none)
             return true;
             else return false;
         }
 
         public void set(Value value, Point position) //установка нового значения на заданную позицию
         {
-            gamefieldArray[position.x, position.y] = value;
+            gamefieldArray[position.y, position.x] = value;
         }
 
         public Value[,] gamefield() //вернуть текущее состояние игрового поля

@@ -12,8 +12,9 @@ using System.Threading.Tasks;
 
         void ViewDelegate.set(Value value, Point point)
         {
-            if (model.isFree(point)) { 
-                model.set(value, point); 
+            if (model.isFree(point))
+            {
+                model.set(value, point);
                 Value winner = analyser.winner(model.gamefield());
                 if (winner != Value.none)
                     view.gameOver(winner);
@@ -21,8 +22,11 @@ using System.Threading.Tasks;
                     view.gameOver(Value.none);
                 else
                     gameTurn(value == Value.x ? Value.o : Value.x);
-
-
+            }
+            else
+            {
+                view.showError("Error! This field is occupied!");
+                gameTurn(value);
             }
         }
 
